@@ -11,7 +11,7 @@ class App extends Component {
         <Navbar inverse staticTop>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#">Ecommerce</a>
+              <a href="#">Ecommerce 24</a>
             </Navbar.Brand>
           </Navbar.Header>
         </Navbar>
