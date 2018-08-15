@@ -40,7 +40,7 @@ CODE - COMANDOS
 1. rcc: crea un componente readjs
 
 ========================================================================================================================================
-TUTORIALES 
+TUTORIALES CHAT
 ========================================================================================================================================
 1. Construir un chat: https://auth0.com/blog/build-a-chat-app-with-react/
 
@@ -53,6 +53,7 @@ Es una herramienta para crear servicios en la tecnologia que ud desee.
 - secret = "a8c50402fb0a909d87ff"
 - cluster = "us2"- 
 
-
-
-
+========================================================================================================================================
+TUTORIALES DESPLEGAR REACTJS APP EN GOOGLE CLOUD
+========================================================================================================================================
+https://cloud.google.com/nodejs/getting-started/hello-world
