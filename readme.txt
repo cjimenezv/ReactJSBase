@@ -58,3 +58,6 @@ TUTORIALES DESPLEGAR REACTJS APP EN GOOGLE CLOUD
 ========================================================================================================================================
 https://cloud.google.com/nodejs/getting-started/hello-world
 https://cloud.google.com/appengine/docs/flexible/nodejs/configuring-your-app-with-app-yaml
+Comandos:
+ - gcloud init --> con este comando configuro el proyecto.
+ - gcloud app deploy --> con este comendo despliego la aplicación
