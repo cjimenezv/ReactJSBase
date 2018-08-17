@@ -54,10 +54,15 @@ Es una herramienta para crear servicios en la tecnologia que ud desee.
 - cluster = "us2"- 
 
 ========================================================================================================================================
-TUTORIALES DESPLEGAR REACTJS APP EN GOOGLE CLOUD
+GOOGLE CLOUD - TUTORIALES DESPLEGAR REACTJS APP 
 ========================================================================================================================================
 https://cloud.google.com/nodejs/getting-started/hello-world
 https://cloud.google.com/appengine/docs/flexible/nodejs/configuring-your-app-with-app-yaml
 Comandos:
  - gcloud init --> con este comando configuro el proyecto.
  - gcloud app deploy --> con este comendo despliego la aplicación
+
+========================================================================================================================================
+autho - TUTORIALES AUTENTICACION REACTJS APP 
+========================================================================================================================================
+ https://auth0.com/docs/quickstart/spa/react
