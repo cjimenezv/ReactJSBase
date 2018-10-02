@@ -96,4 +96,6 @@ DOLIBARR
 	- descargar mydoli
 	- Cambiar el parametro: $dolibarr_nocsrfcheck='1',  en el archivo conf.php en /opt/bitnami/apps/dolibarr/htdocs/conf#
 	- Descargar la app del store
+- Para instalar la app de restaurantes: descargar takepos
+
 
