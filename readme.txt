@@ -70,5 +70,17 @@ autho - TUTORIALES AUTENTICACION REACTJS APP
 ========================================================================================================================================
 DOLIBARR 
 ========================================================================================================================================
-Para ingresar como root en la consola SSH dar el comando: sudo su -
+- Para ingresar como root en la consola SSH dar el comando: sudo su -
+
+- Documentación en bitnami: 
+	- https://docs.bitnami.com/google/faq/get-started/find-credentials/
+	- https://bitnami.com/stack/dolibarr/cloud
+	-https://docs.bitnami.com/google/apps/dolibarr/configuration/install-plugins/
+
+- Pasos para instalar un paquede desde dolistore:
+	- Paso 1: Buscar el paquete que responde a su necesidad (por ejemplo en el sitio web https://www.dolistore.com/)
+	- Paso 2: Descargue el paquete (por ejemplo desde el sitio web oficial https://www.dolistore.com/).
+	- Paso 3: Para instalar un módulo externo, descomprima el archivo en el directorio del servidor dedicado a los módulos: 			  /opt/bitnami/apps/dolibarr/htdocs/custom
+	- Paso 4: La instalación del módulo ha concluido. Sin embargo, debe habilitar y configurar el módulo en su aplicación, vaya a la 		   página para configurar los módulos: .
+
 
