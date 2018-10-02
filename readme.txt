@@ -92,4 +92,8 @@ DOLIBARR
 	- Desde la ventana del WAMPSERVER, se selecciona el apache y ahi da la opcion para crear un alias que debe apuntar a donde descomprimiste el dolibarr.
 	- Luego seguir las instrucciones que estan en el archivo README.md
 	- Navegar a http://localhost/dolibarr801/install/ para realizar la primera instalación del dolibarr.
+- Para la aplicación movil:
+	- descargar mydoli
+	- Cambiar el parametro: $dolibarr_nocsrfcheck='1',  en el archivo conf.php en /opt/bitnami/apps/dolibarr/htdocs/conf#
+	- Descargar la app del store
 
