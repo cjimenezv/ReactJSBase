@@ -83,4 +83,6 @@ DOLIBARR
 	- Paso 3: Para instalar un módulo externo, descomprima el archivo en el directorio del servidor dedicado a los módulos: 			  /opt/bitnami/apps/dolibarr/htdocs/custom
 	- Paso 4: La instalación del módulo ha concluido. Sin embargo, debe habilitar y configurar el módulo en su aplicación, vaya a la 		   página para configurar los módulos: .
 
+- Para instalar el ambiente de desarrollo:
+	- https://wiki.dolibarr.org/index.php/Environment_and_development_tools
 
