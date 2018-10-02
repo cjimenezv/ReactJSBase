@@ -90,4 +90,6 @@ DOLIBARR
 	- Descargue una versión estable, en mi caso descargue la versión del 8.0.1 que es la misma que tengo en la nube.
 	- Se descomprime.
 	- Desde la ventana del WAMPSERVER, se selecciona el apache y ahi da la opcion para crear un alias que debe apuntar a donde descomprimiste el dolibarr.
+	- Luego seguir las instrucciones que estan en el archivo README.md
+	- Navegar a http://localhost/dolibarr801/install/ para realizar la primera instalación del dolibarr.
 
