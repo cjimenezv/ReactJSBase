@@ -85,4 +85,9 @@ DOLIBARR
 
 - Para instalar el ambiente de desarrollo:
 	- https://wiki.dolibarr.org/index.php/Environment_and_development_tools
+	
+- Para instalarlo localmente:
+	- Descargue una versión estable, en mi caso descargue la versión del 8.0.1 que es la misma que tengo en la nube.
+	- Se descomprime.
+	- Desde la ventana del WAMPSERVER, se selecciona el apache y ahi da la opcion para crear un alias que debe apuntar a donde descomprimiste el dolibarr.
 
