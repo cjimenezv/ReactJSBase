@@ -104,3 +104,4 @@ POSTGRESQL versión 9.6
 usuario: posgres
 clave: vale1998
 nombre de la instancia: dblaura
+Herramienta de administración: pgpadmin --> https://www.pgadmin.org/download/
