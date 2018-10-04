@@ -98,4 +98,9 @@ DOLIBARR
 	- Descargar la app del store
 - Para instalar la app de restaurantes: descargar takepos
 
-
+========================================================================================================================================
+POSTGRESQL versión 9.6 
+========================================================================================================================================
+usuario: posgres
+clave: vale1998
+nombre de la instancia: dblaura
