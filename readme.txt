@@ -101,9 +101,9 @@ DOLIBARR
 ========================================================================================================================================
 POSTGRESQL versión 9.6 
 ========================================================================================================================================
-usuario: posgres
-clave: vale1998
-nombre de la instancia: dblaura
-Herramienta de administración: pgpadmin --> https://www.pgadmin.org/download/
-Para instalar poossgresql en la nube de google toaca seguir este manual: https://cloud.google.com/community/tutorials/setting-up-postgres
+-usuario: posgres
+-clave: vale1998
+-nombre de la instancia: dblaura
+-Herramienta de administración: pgpadmin --> https://www.pgadmin.org/download/
+-Para instalar poossgresql en la nube de google toaca seguir este manual: https://cloud.google.com/community/tutorials/setting-up-postgres. Toca seguir uno a uno los pasos y funciona perfectamente.
 
