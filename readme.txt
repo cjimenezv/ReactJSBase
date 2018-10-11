@@ -120,6 +120,7 @@ POSTGRESQL versión 9.6
 - Para habilitar una ip externa ir al archivo: sudo nano ../../etc/postgresql/9.3/main/pg_hba.conf
 - Para cambiar el puerto ir al archivo:  sudo nano ../../etc/postgresql/9.3/main/postgresql.conf
  - Para detalles de conexión en linux ver: http://suite.opengeo.org/docs/latest/dataadmin/pgGettingStarted/firstconnect.html
+ - Configurar postgresQl desde Google: https://cloud.google.com/community/tutorials/setting-up-postgres
 
 ========================================================================================================================================
 SPRING.IO 
