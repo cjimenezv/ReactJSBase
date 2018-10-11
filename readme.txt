@@ -115,6 +115,10 @@ POSTGRESQL versión 9.6
 -nombre de la instancia: dblaura
 -Herramienta de administración: pgpadmin --> https://www.pgadmin.org/download/
 -Para instalar poossgresql en la nube de google toaca seguir este manual: https://cloud.google.com/community/tutorials/setting-up-postgres. Toca seguir uno a uno los pasos y funciona perfectamente.
+- Para conectarme desde la consola unix a la bd: psql -d postgres -U postgres -W
+- Para reiniciar el servicio: sudo service postgresql restart
+- Para habilitar una ip externa ir al archivo: sudo nano ../../etc/postgresql/9.3/main/pg_hba.conf
+- Para cambiar el puerto ir al archivo:  sudo nano ../../etc/postgresql/9.3/main/postgresql.conf
 
 ========================================================================================================================================
 SPRING.IO 
