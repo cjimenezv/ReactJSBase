@@ -54,13 +54,22 @@ Es una herramienta para crear servicios en la tecnologia que ud desee.
 - cluster = "us2"- 
 
 ========================================================================================================================================
-GOOGLE CLOUD - TUTORIALES DESPLEGAR REACTJS APP 
+GOOGLE CLOUD 
 ========================================================================================================================================
+TUTORIALES DESPLEGAR REACTJS APP:
 https://cloud.google.com/nodejs/getting-started/hello-world
 https://cloud.google.com/appengine/docs/flexible/nodejs/configuring-your-app-with-app-yaml
 Comandos:
  - gcloud init --> con este comando configuro el proyecto.
  - gcloud app deploy --> con este comendo despliego la aplicación
+
+PASOS PARA DESPLEGAR UN MICROSERVICIO:
+1. Desde la consola web: cree una instancia, dentro de un compute engine. No olvide seleccionar el sistema operativo.
+2. Para actualizar el sistema operativo, ejecute el siguiente comando: sudo apt-get update
+3. Para instalar java use el siguiente comando: sudo apt-get install git maven openjdk-8-jdk -y
+4. Para subir el archivo jar, desde el local hasta la nube use el siguiente comando desde gcloud:
+	- gcloud compute scp C:\localpath\demo-restservice-0.0.1-SNAPSHOT.jar user@ejemplorest:/home/user
+2. Cree las reglas de firewall tanto de entrada como de salida habilitando el puerto 8080.
 
 ========================================================================================================================================
 autho - TUTORIALES AUTENTICACION REACTJS APP 
@@ -106,4 +115,11 @@ POSTGRESQL versión 9.6
 -nombre de la instancia: dblaura
 -Herramienta de administración: pgpadmin --> https://www.pgadmin.org/download/
 -Para instalar poossgresql en la nube de google toaca seguir este manual: https://cloud.google.com/community/tutorials/setting-up-postgres. Toca seguir uno a uno los pasos y funciona perfectamente.
+
+========================================================================================================================================
+SPRING.IO 
+========================================================================================================================================
+- Comando para ejecutar servidor en ambiente de desarrollo: mvnw spring-boot:run
+- Comando para crear el jar: mvnw clean package
+- Comando para ejecutar el jar, creado localmente: java -jar target/nombredeljarfile.jar
 
