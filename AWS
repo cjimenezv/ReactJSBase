@@ -9,4 +9,18 @@ Tutoriales basicos: https://aws.amazon.com/es/getting-started/use-cases/?awsf.ge
 
 Comandos:
 - Autualiza el sistema operativo:  sudo yum update
+- Para conectarse a una instancia debe ejecutar el comando: 
+      - ssh -i 'c:\Users\sunombreusuario\.ssh\MyKeyPair.pem' ec2-user@{dirección_IP} 
+      - donde: 
+              - MyKeyPair.pem, es la clave que ud creo al momento de crear ñla instancia
+              - ec2-user, este dependera del sostema operativo que usted instalo así:
+                  - Para Amazon Linux 2 o la AMI de Amazon Linux, el nombre de usuario es ec2-user.
+                  - Para una AMI de Centos, el nombre de usuario es centos.
+                  - Para una AMI de Debian, el nombre de usuario es admin o root.
+                  - Para una AMI de Fedora, el nombre de usuario es ec2-user o fedora.
+                  - Para una AMI de RHEL, el nombre de usuario es ec2-user o root.
+                  - Para una AMI de SUSE, el nombre de usuario es ec2-user o root.
+                  - Para una AMI de Ubuntu, el nombre de usuario es ubuntu.
+                  - Si ec2-user y root no funcionan, consulte con el proveedor de la AMI.
+      
 
