@@ -8,7 +8,8 @@ Tutorial para crear una instancia: https://aws.amazon.com/es/getting-started/tut
 Tutoriales basicos: https://aws.amazon.com/es/getting-started/use-cases/?awsf.getting-started-content=*default
 
 Comandos:
-- Autualiza el sistema operativo:  sudo yum update
+- Autualiza el sistema operativo cuendo es Amazon Linux:  sudo yum update
+- Auctualiza el sistema operativo cuando es Ubuntu Linux: sudo apt-get -y update
 - Para conectarse a una instancia debe ejecutar el comando: 
       - ssh -i 'c:\Users\sunombreusuario\.ssh\MyKeyPair.pem' ec2-user@{dirección_IP} 
       - donde: 
