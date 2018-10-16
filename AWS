@@ -22,6 +22,8 @@ Comandos:
                   - Para una AMI de RHEL, el nombre de usuario es ec2-user o root.
                   - Para una AMI de SUSE, el nombre de usuario es ec2-user o root.
                   - Para una AMI de Ubuntu, el nombre de usuario es ubuntu.
-                  - Si ec2-user y root no funcionan, consulte con el proveedor de la AMI.
+                  - Si ec2-user y root no funcionan, consulte con el proveedor de la AMI
+- Comando para encadenar filezilla: https://angus.readthedocs.io/en/2014/amazon/transfer-files-between-instance.html
+
       
 
