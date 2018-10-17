@@ -6,6 +6,7 @@ password: vale1998
 Fecha de inscripcion: 13/OCT/2018
 Tutorial para crear una instancia: https://aws.amazon.com/es/getting-started/tutorials/launch-a-virtual-machine/?trk=gs_card
 Tutoriales basicos: https://aws.amazon.com/es/getting-started/use-cases/?awsf.getting-started-content=*default
+Tutoriales basicos: https://aws.amazon.com/es/getting-started/tutorials/
 
 Comandos:
 - Autualiza el sistema operativo cuendo es Amazon Linux:  sudo yum update
