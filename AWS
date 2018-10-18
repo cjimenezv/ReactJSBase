@@ -11,6 +11,7 @@ Tutorial para crear una instancia: https://aws.amazon.com/es/getting-started/tut
 Tutoriales basicos: https://aws.amazon.com/es/getting-started/use-cases/?awsf.getting-started-content=*default
 Tutoriales basicos: https://aws.amazon.com/es/getting-started/tutorials/
 Guias: https://docs.aws.amazon.com
+Tutorial para tolkit AWS: https://docs.aws.amazon.com/es_es/toolkit-for-eclipse/v1/user-guide/welcome.html
 
 Comandos:
 - Autualiza el sistema operativo cuendo es Amazon Linux:  sudo yum update
