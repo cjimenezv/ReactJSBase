@@ -137,4 +137,12 @@ Para seleccionar el archivo properties adecuado:
 - Para saber con cual de los tres trabajar usar la variable: spring.profiles.active=dev
 - Ejemplo del comendo: java -jar -Dspring.profiles.active=dev myproject.jar
 
+Paquete seguridad por defecto:
+ - Por defecto cuando incluyo el modulo de seguridad en spring, este es configurado en BASIC
+ - Usuario --> user y password: el que muestre en la consola
+
+Pendientes por estudiar
+ - Security:https://docs.spring.io/spring-boot/docs/1.4.0.RELEASE/reference/htmlsingle/#boot-features-security
+ - Example security: https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-secure
+
 
