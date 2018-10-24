@@ -128,9 +128,13 @@ SPRING.IO
 - Comando para ejecutar servidor en ambiente de desarrollo: mvnw spring-boot:run
 - Comando para crear el jar: mvnw clean package
 - Comando para ejecutar el jar, creado localmente: java -jar target/nombredeljarfile.jar
+
+Para seleccionar el archivo properties adecuado:
 - Existen 3 archivos de propiedades segun el ambiente:
 	-application-dev.properties
 	- application-prod.properties and 
 	- application.properties
 - Para saber con cual de los tres trabajar usar la variable: spring.profiles.active=dev
+- Ejemplo del comendo: java -jar -Dspring.profiles.active=dev myproject.jar
+
 
