@@ -131,7 +131,7 @@ SPRING.IO
 
 Para seleccionar el archivo properties adecuado:
 - Existen 3 archivos de propiedades segun el ambiente:
-	-application-dev.properties
+	- application-dev.properties
 	- application-prod.properties and 
 	- application.properties
 - Para saber con cual de los tres trabajar usar la variable: spring.profiles.active=dev
