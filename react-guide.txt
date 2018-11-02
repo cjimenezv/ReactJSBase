@@ -1,5 +1,15 @@
 ============================================================================================================================
 REACT
 ============================================================================================================================
-1.Definir variables:
+1. Primer concepto: Esisten funciones y componentes. La funcion va en un archivo .js, mientras que el componente puede ir en un archivo .jsx. 
+2. Los componentes tienen un ciclo de vida definido, mientras que las funciones no.
+
+3.Definir variables en componentes tipo funcion:
   - const name = 'Josh Perez';
+
+4.You can convert a function component like Clock to a class in five steps:
+  - Create an ES6 class, with the same name, that extends React.Component.
+  - Add a single empty method to it called render().
+  - Move the body of the function into the render() method.
+  - Replace props with this.props in the render() body.
+  - Delete the remaining empty function declaration.
