@@ -146,4 +146,10 @@ Pendientes por estudiar
  - Example security: https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-secure
 ====================================================================================================================================
 CUENTA GOOGLE: awscjimenezv@gmail.com
+====================================================================================================================================
+PASOS PARA EL DESPLIEGUE EN LA NUBE.
+REACT:
+- Cambiar el URL de retorno del Callback
+
+
 
