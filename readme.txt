@@ -154,7 +154,7 @@ REACT:
 SPRING:
 - Genere el JAR ejecutable con el comando: mvnw clean package. Este crea el jar respectivo.
 - Cargue el archivo. Para ello desde la ventana de comandos del "Compute Engine", encontrara arriba a la derecha de la ventana las diferentes opciones, una de ellas la de "Subir archivo". De clic alli, busque el JAR generado y dale cargar. Este queda en la ruta: "/home/awscjimenezv"
-- Suba el servicio con el comando: java -jar -Dspring.profiles.active=dev myproject.jar; Note que como opcion se envia el archivo que contiene la configuración para producción.
+- Suba el servicio con el comando: sudo java -jar -Dspring.profiles.active=pro erplaura-1.0.0.jar; Note que como opcion se envia el archivo que contiene la configuración para producción.
 - Abra el puerto 8080 por linea de comandos.
 
 
