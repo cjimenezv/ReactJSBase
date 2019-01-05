@@ -156,6 +156,54 @@ SPRING:
 - Cargue el archivo. Para ello desde la ventana de comandos del "Compute Engine", encontrara arriba a la derecha de la ventana las diferentes opciones, una de ellas la de "Subir archivo". De clic alli, busque el JAR generado y dale cargar. Este queda en la ruta: "/home/awscjimenezv"
 - Suba el servicio con el comando: sudo java -jar -Dspring.profiles.active=pro erplaura-1.0.0.jar; Note que como opcion se envia el archivo que contiene la configuración para producción.
 - Abra el puerto 8080 por linea de comandos.
+=================================================================================================================
+COMANDOS IMPORTANTES UNIX
+=================================================================================================================
+RAR:
+- Instalar:
+	sudo apt-get update
+	sudo apt-get install rar unrar
+- Para descomprimir con winrar: Unrar x (nombre_archivo).rar
+=================================================================================================================
+DESPLIEGUE DE COMPONENTES BACK SPRING.IO
+=================================================================================================================
+- Localmente se encuentra en: 
+	C:\Carlos\WS-Example-Spring\erplaura
+- Para ejecutar localmente ejecute comando: 
+	- 'mvnw spring-boot:run'
+	- tenga en cuenta pararse sobre la ruta del proyecto
+	- El servicio se levanta sobre puerto '8080'
+- Para probarlo localmente utilice: 'Postman'
+	- Ejemplo para invocar servicio: http://localhost:8080/getEstadisticasTercero
+- Para generar el ejecutable usa el comando: 'mvnw clean package'
+- Este genera un jar el cual puedes buscar en una carpeta llamada 'target'
+	- ejemplo: C:\Carlos\WS-Example-Spring\erplaura\target\erplaura-1.0.0.jar
+	- Este ejecutable es el que debes subir a la nube.
+	- Comando para ejecutar el jar, creado localmente: java -jar C:\Carlos\WS-Example-Spring\erplaura\target\erplaura-1.0.0.jar
+- Para feninir que ip, pueden alcanzar el servicio, esto se define en el código así:
+	- Clase: RestControladorPrincipal.java
+	- Variable static final String origen = "*";
+		- origen = "*" => Permite que todas las ip queden habilitadas.
+		- origen = "localhost:3000" => Solo responde a esta IP, para producción pensar en esta opción.
+	
+- Para la nube:
+	1. Recuerde que se debe crear en google cloud una instancia por la opcion 'Compute Engine'
+	2. La instancia creada te da una ip publica y una ip privada.
+	3. Instala la instancia con Sistema Operativo Ubuntu.
+	4. Debes actualizar el sistema operativo, ejecute el siguiente comando: 'sudo apt-get update'
+	5. Abre la instancia con SSH, cuya opcion aparece al frente del nombre de la instancia en la pantalla de la consola.
+	7. Una vez se abra, puedes iniciar sesion con super usuario usa comando: 'sudo su -'; esto facilita el trabajo
+	8. Debes instalar java, usa el comando: 'sudo apt-get install git maven openjdk-8-jdk -y'
+	9. Para subir el archivo jar, desde el local hasta la nube tienes dos opciones: 
+		- use el siguiente comando: 'gcloud compute scp C:\localpath\erplaura-1.0.0.jar awscjimenezv@ipostgreslau:/home/awscjimenezv'
+				- Tenga en cuenta q 'awscjimenezv' corresponde al nombre del usuario y 'ipostgreslau' corresponde al nombre de la instancia.
+		- Ó utilice desde la consola del SSH, la opcion de subir el archivo, la cual te ho ubica en /home/$nomobreusuario
+	10. Para ejecutar el jar, use la opción: 'java -jar -Dspring.profiles.active=pro erplaura-1.0.0.jar'
+		- Tenga en cuenta q la opcion: '-Dspring.profiles.active=pro', indica que los parametros a usar son los que estan en el archivo de propiedades asi:
+				- Por defecto, si no se usa parametros, toma el archivo: 'application.properties'
+				- Si uso 'dev', toma el archivo: application-dev.properties => Parametros para ambiente de desarrollo
+				- Si uso 'pro', toma el archivo: application-pro.properties => Parametros para ambiente de produccion
+	11. Desde la consola de Google Cloud, defina las reglas de firewall tanto de entrada como de salida habilitando el puerto 8080.
 
 
 
