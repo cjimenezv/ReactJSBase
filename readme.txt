@@ -156,7 +156,6 @@ SPRING:
 - Cargue el archivo. Para ello desde la ventana de comandos del "Compute Engine", encontrara arriba a la derecha de la ventana las diferentes opciones, una de ellas la de "Subir archivo". De clic alli, busque el JAR generado y dale cargar. Este queda en la ruta: "/home/awscjimenezv"
 - Suba el servicio con el comando: sudo java -jar -Dspring.profiles.active=pro erplaura-1.0.0.jar; Note que como opcion se envia el archivo que contiene la configuración para producción.
 - Abra el puerto 8080 por linea de comandos.
-=================================================================================================================
 COMANDOS IMPORTANTES UNIX
 =================================================================================================================
 RAR:
@@ -204,6 +203,33 @@ DESPLIEGUE DE COMPONENTES BACK SPRING.IO
 				- Si uso 'dev', toma el archivo: application-dev.properties => Parametros para ambiente de desarrollo
 				- Si uso 'pro', toma el archivo: application-pro.properties => Parametros para ambiente de produccion
 	11. Desde la consola de Google Cloud, defina las reglas de firewall tanto de entrada como de salida habilitando el puerto 8080.
+	
+	
+=================================================================================================================
+DESPLIEGUE DE COMPONENTES FRONT REACTJS
+=================================================================================================================
+- Localmente se encuentra en: 
+	C:\Carlos\react\lauraerp
+- Para ejecutar localmente ejecute comando: 
+	- 'npm start'
+	- tenga en cuenta pararse sobre la ruta del proyecto
+	- El servicio se levanta sobre puerto '3000'
+- Para probarlo localmente utilice cualquier browser
+	- Ejemplo para invocar servicio: http://localhost:3000
 
-
-
+Para la nube usando 'Compute Engine'
+- Abra la instancia usando SSH.
+- Instale npm, aunque creo q por defecto ya viene instalado en la instancia.
+- Sobre la carpeta del proyecto 'C:\Carlos\react\lauraerp' localmente genere un rar: 'lauraerp.rar' 
+- Tenga en cuenta de mover temporalmente la carpeta 'node_modules' ya que alli se encuentran todas las librerias.
+- Suba el rar generado.
+- Muevalo de: '/home/awscjimenezv' a /home/awscjimenezv/react
+- Descomprimalo usando el comando: 'Unrar x lauraerp.rar'
+- Parese en la carpeta descomprimida e instale el aplicativo usando el comando: 'npm install'
+- Ejecutelo usando el comando: 'npm start'
+- En las reglas del firewall abra el puerto '8080'
+- Recuerde actualizar los siguientes archivos:
+	- C:\Carlos\react\lauraerp\src\Auth\auth0-variables.js
+			- Actualice el callback
+	- C:\Carlos\react\lauraerp\src\variables\lauraSistema.jsx
+			- Actulice los url para alcanzar los servicios de spring.io de la nube.
