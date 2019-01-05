@@ -233,3 +233,11 @@ Para la nube usando 'Compute Engine'
 			- Actualice el callback
 	- C:\Carlos\react\lauraerp\src\variables\lauraSistema.jsx
 			- Actulice los url para alcanzar los servicios de spring.io de la nube.
+			
+Para la nube usanso 'App Engine'
+- Este seria para productivo.
+- Cree sobre el proyecto de Google Cloud, la instancia de 'App Engine', seleccionando 'node.js'
+- Configure sobre su maquina la instancia de despliegue con el comando: 'gcloud init'
+- Despliegue la aplicacion con el comando: 'gcloud app deploy'
+	- Tenga en cuenta estar parado sobre el proyecto a desplegar: 'C:\Carlos\react\lauraerp'
+						
