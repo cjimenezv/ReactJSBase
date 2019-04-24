@@ -248,5 +248,6 @@ Localmente:
 
 1. Instalación de librerias:
 	- Auth0: npm install --save auth0-js
+	- ver mas detalle en: https://auth0.com/docs/quickstart/spa/angular2/01-login#integrate-auth0-in-your-application
 
 
