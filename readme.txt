@@ -240,4 +240,13 @@ Para la nube usanso 'App Engine'
 - Configure sobre su maquina la instancia de despliegue con el comando: 'gcloud init'
 - Despliegue la aplicacion con el comando: 'gcloud app deploy'
 	- Tenga en cuenta estar parado sobre el proyecto a desplegar: 'C:\Carlos\react\lauraerp'
-						
+
+=================================================================================================================
+DESPLIEGUE DE COMPONENTES FRONT ANGULAR 7
+=================================================================================================================
+Localmente:
+
+1. Instalación de librerias:
+	- Auth0: npm install --save auth0-js
+
+
